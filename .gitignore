@@ -1,0 +1,15 @@
+# Local .terraform directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform variables (containing sensitive info like your email)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
