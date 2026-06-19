@@ -1,33 +1,26 @@
 # BÁO CÁO KẾT QUẢ BÀI TẬP (EVIDENCE)
 ## Đề tài: Phát hiện Dữ liệu Nhạy cảm trên Amazon S3 bằng Amazon Macie và Gửi Cảnh báo Email
 
-- **Họ và tên:** [Điền họ và tên của bạn]
+- **Họ và tên:** [Lê Viết Quốc Hưng]
 - **Email nhận cảnh báo:** quochungisme@gmail.com
-- **Repository Github:** [Dán link repo Github của bạn ở đây]
 
 ---
 
 ## 1. Kết quả Phát hiện Dữ liệu Nhạy cảm trong Amazon Macie (Detect)
 
-*Mô tả: Hình ảnh chụp màn hình bảng điều khiển Amazon Macie chỉ ra các Findings (phát hiện) dữ liệu nhạy cảm (Credit Cards, SSN, v.v.) bên trong tệp tin `sensitive_data.csv` trên S3 Bucket.*
+*Mô tả:bảng điều khiển Amazon Macie chỉ ra các Findings (phát hiện) dữ liệu nhạy cảm (Credit Cards, SSN, v.v.) bên trong tệp tin `sensitive_data.csv` trên S3 Bucket.*
 
-> [!TIP]
-> Lưu ảnh chụp màn hình Macie của bạn với tên `macie_detect.png` đặt trong thư mục này và thay thế đường dẫn bên dưới (hoặc dán ảnh trực tiếp vào).
+<img width="1608" height="744" alt="image" src="https://github.com/user-attachments/assets/833439b1-124e-446c-bdc1-504420691436" />
 
-![Amazon Macie Detect](macie_detect.png)
 
 ---
 
 ## 2. Kết quả Cảnh báo gửi về Mail (Mail Notification Alert)
 
-*Mô tả: Hình ảnh chụp màn hình email thông báo nhận được trong hòm thư cá nhân từ dịch vụ AWS Notifications (thông qua SNS & EventBridge) cảnh báo chi tiết về các Findings mà Amazon Macie phát hiện được.*
+*Mô tả:màn hình email thông báo nhận được trong hòm thư cá nhân từ dịch vụ AWS Notifications (thông qua SNS & EventBridge) cảnh báo chi tiết về các Findings mà Amazon Macie phát hiện được.*
 
-> [!TIP]
-> Lưu ảnh chụp màn hình Email nhận cảnh báo với tên `email_alert.png` đặt trong thư mục này và thay thế đường dẫn bên dưới (hoặc dán ảnh trực tiếp vào).
+<img width="1474" height="602" alt="image" src="https://github.com/user-attachments/assets/31243eeb-80b9-42b1-b048-7e6c95abc58b" />
 
-![Email Notification Alert](email_alert.png)
-
----
 
 ## 🛠️ Chi tiết Tài nguyên đã Triển khai (Terraform Outputs)
 
